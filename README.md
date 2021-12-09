@@ -45,6 +45,7 @@ II, Feature Selection:
   - Summary:
      + Remove: company, agents, country, arrival_date_year, arrival_date_week_number, arrival_date_day_of_month, is_repeated_guest,reserved_room_type, assigned_room_type, deposit_type,days_in_waiting_list, adr, reservation_status_date,reservation_status (14 features)
      + Remaining: 18 features - label = 17 features
+ 
 III, Data Cleaning:
   - Drop 'NA' in children columns
   - In the meal column, convert "Undefined" that have not been converted to "SC" as described in the dataset
@@ -53,7 +54,7 @@ III, Data Cleaning:
   - Drop all rows that have 0 adults, 0 children, 0 babies 
   - Convert datatype of children to integer
   - Convert reservation_status_date of children to integer
-  => After process , dataset remain 87226 rows 
+  => After process , dataset remain 87226 rows x 17 columns
 IV, Data Engineering
 
 
