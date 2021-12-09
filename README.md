@@ -56,6 +56,14 @@ III, Data Cleaning:
   - Convert reservation_status_date of children to integer
   => After process , dataset remain 87226 rows x 17 columns
 IV, Data Engineering
+  - Convert categorical features to one-hot encoding 
+ 
+  ![image](https://user-images.githubusercontent.com/62682595/145429319-dcf3f391-3cdf-4442-b650-2332ce81b49b.png)
+  - Min-max scaler for numeric features:
+  
+  ![image](https://user-images.githubusercontent.com/62682595/145429434-70773ed7-daed-4831-851a-33f47474cffd.png)
+  
+
 
 
 
