@@ -62,7 +62,24 @@ IV, Data Engineering
   - Min-max scaler for numeric features:
   
   ![image](https://user-images.githubusercontent.com/62682595/145429434-70773ed7-daed-4831-851a-33f47474cffd.png)
+ V, Train model
+   - Split train:test = 8:2
+   - Algorithm : Logistic Regresion ( Gradient Descent + Momentum)
+ VI, Evaluate model
+   - Loss chart
+   ![image](https://user-images.githubusercontent.com/62682595/145432262-1dbd4fdc-c470-462b-ad94-6470e1e7ab32.png)
+   
+   - Precision: 0.79
+   - Recall: 0.94
+   - F1-score: 0.86
+   - Confusion matrix:
+   
+   ![image](https://user-images.githubusercontent.com/62682595/145432477-191a07bf-1542-4a0f-83c4-56d521b3cbd3.png)
+
+    
+
   
+   
 
 
 
