@@ -71,14 +71,15 @@ IV, Data Engineering
  VI, Evaluate model
    - Loss chart
     
-   ![image](https://user-images.githubusercontent.com/62682595/145432262-1dbd4fdc-c470-462b-ad94-6470e1e7ab32.png)
+  ![image](https://user-images.githubusercontent.com/62682595/145510105-69453c91-453a-4458-8238-705ea21291e5.png)
+
    
-   - Precision: 0.79
-   - Recall: 0.94
-   - F1-score: 0.86
+   - Precision: 0.78
+   - Recall: 0.93
+   - F1-score: 0.85
    - Confusion matrix:
    
-   ![image](https://user-images.githubusercontent.com/62682595/145432477-191a07bf-1542-4a0f-83c4-56d521b3cbd3.png)
+   ![image](https://user-images.githubusercontent.com/62682595/145510248-8d92bfab-7de7-4d7b-abf1-f47fe1954a7d.png)
 
     
 
