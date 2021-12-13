@@ -6,9 +6,7 @@ I, Data Description:
    - Data Semantics: 
    
    ![image](https://user-images.githubusercontent.com/62682595/145411918-7872e8c2-8af6-4cc9-94ef-db27ae7c558e.png)
-   - Label 1 takes up 1/3 of the label 0:
     
-    ![image](https://user-images.githubusercontent.com/62682595/145412328-2aaafa49-6d01-481e-9d9e-c9461b21b040.png)
 II, Feature Selection:
    - We only select important features to reduce data dimension, noise data
    - There are some reason why we should choose and not with features:
@@ -55,6 +53,10 @@ III, Data Cleaning:
   - Convert datatype of children to integer
   - Convert reservation_status_date of children to integer
   => After process , dataset remain 87226 rows x 17 columns
+  - Label 1 is 3 times more than label 3
+  
+  ![image](https://user-images.githubusercontent.com/62682595/145741802-4ee49490-338e-4233-8231-ec2aa9c81b48.png)
+
   
 IV, Data Engineering
   - Convert categorical features to one-hot encoding 
